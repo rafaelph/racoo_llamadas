@@ -3,8 +3,9 @@ import axios from "axios";
 const base_url =
   window.location.hostname === "localhost"
     ? "http://localhost:3000/api"
-    : "https://racooapp.herokuapp.com/api";
+    : "http://35.224.44.170:3000/api";
 
+//API: http://racooapp.herokuapp.com/api
 const headers = {
   "Content-Type": "application/json",
   "x-access-token": localStorage.getItem("token")
