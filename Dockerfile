@@ -11,5 +11,5 @@ RUN npm i
 COPY --from=node /app/build ./public/
 ENV PORT 3000
 EXPOSE $PORT
-CMD node "bin/www.js"
+CMD node "bin/www"
 
