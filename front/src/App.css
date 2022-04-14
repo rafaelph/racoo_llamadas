@@ -1,0 +1,208 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container {
+  padding: 6% 4% 0 4%;
+}
+
+.root {
+  flex-grow: 1;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.auth {
+  padding: 5%;
+}
+
+.button {
+  margin-top: 2% !important;
+}
+
+.nav-avatar {
+  margin: 10px;
+}
+
+.avatar {
+  width: 60px !important;
+  height: 60px !important;
+}
+
+.drawerList {
+  width: 250px;
+}
+
+.logoAuth {
+  width: 50px;
+  margin-top: 5px;
+}
+
+.logoMenu {
+  width: 125px;
+}
+
+.fab {
+  position: absolute !important;
+  bottom: 5%;
+  right: 2%;
+}
+
+.buttonForm {
+  margin-top: 20px !important;
+}
+
+.marginTabs {
+  margin: 1% 0 3% 0;
+}
+
+.calls-table {
+  margin-top: 2%;
+}
+
+.chipsPositions {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.labelsRadios {
+  margin-top: 20px;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.width100 {
+  width: 100%;
+}
+
+.list-records {
+  list-style: none;
+  font-size: 12px;
+  padding-left: 2%;
+  text-align: left;
+}
+
+.link-words {
+  color: #000000;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
+  background-color: #ffebf1;
+  color: #fedbe6;
+  border-radius: 5px;
+  padding: 1px 1.5px;
+}
+
+.link-words:hover {
+  color: #ff1559;
+}
+
+.telephone-client {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.telephone-company {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.pre {
+  display: block;
+  font-family: monospace;
+  white-space: pre-wrap;
+  margin: 1em 0px;
+}
+
+.color-pending {
+  background-color: rgba(255, 30, 30, 0.2);
+}
+
+.box-comments {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.paper-comments {
+  padding: 1%;
+}
+
+.comments-avatar {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.separator-box-comments {
+  margin-bottom: 3% !important;
+}
+
+.separator-comments {
+  margin-bottom: 1.25% !important;
+}
+
+.title-comments {
+  font-weight: bold;
+}
+
+.date-comments {
+  font-size: 12px;
+}
+
+.comments {
+  margin-bottom: 5%;
+}
+
+.comments {
+  font-size: 14px;
+  text-align: left;
+  margin: 0 0 0.5% 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+.divider {
+  margin-bottom: 2%;
+}

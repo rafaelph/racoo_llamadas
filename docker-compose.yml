@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  llamadas:
+    build: .
+    image: gcr.io/racoo-248604/llamadas
+    restart: unless-stopped
+    environment:
+      COMPOSER_MEMORY_LIMT: -1
+      COMPOSER_PROCESS_TIMEOUT: 2000
+    expose:
+      - 3000
+    ports:
+      - 8083:3000
